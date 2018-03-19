@@ -1,0 +1,99 @@
+body{
+    background-image: url(images/background.png);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.header{
+    width: 815px;
+    height: 200px;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+}
+.logotypAll{
+     width: 265px;
+     height: 200px;
+     display: flex;
+    flex-wrap: wrap;
+}
+.logo{
+     width: 265px;
+     height: 165px;
+    display: flex;
+    align-items: flex-end;
+}
+/*
+.logo::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+*/
+.slogan{
+    width: 265px;
+    height: 35px;
+    color:#e6e6e6;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#palm{
+     width: 130px;
+     height: 150px;
+     position: absolute;
+     margin-left: 140px;
+     margin-top: 55px;
+}
+.info{
+    width: 105px;
+    height: 200px;
+    color: #e6e6e6;
+    font-size: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+}
+.in{
+    width: 105px;
+    height: 12px;   
+}
+
+.inform{
+    width: 103px;
+    height: 35px;
+    margin-bottom: 15px;
+}
+.menu{
+    width: 815px;
+    height: 450px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-between;
+}
+.my{
+    width: 269px;
+    height:203px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.image{
+    height:178px;
+    border: 3px groove #c9bfc9; 
+}
+.text{
+    height:26px;
+    font-size: 15px;
+    margin: auto;
+    color: #e6e6e6;   
+}
+.footer{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    font-size: 10px;
+    color: #e6e6e6; 
+    padding-top: 185px;
+}
